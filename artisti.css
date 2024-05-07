@@ -1,6 +1,4 @@
-body{
 
-}
 .palle4{
     padding: 40px;
 }
@@ -31,4 +29,88 @@ section.cards img {
     box-shadow: 0px 0px 8px gray;
 }
 
+.nooo{
+    left: -70px;
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+/* Per la modale*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.testoEmily{
+    background-color: white;
+    padding: 50px;
+    color: black;
+}
+
+.testoMartina{
+    background-color: rgba(30, 159, 250, 1);
+    padding: 50px;
+}
+
+.testoicinori{
+    background-color: rgba(253, 237, 216, 1);
+    padding: 20px;
+}
+
+.coloremartina{
+    color: white;
+}
+
+.testopaul{
+    background-color: rgba(250, 242, 239, 1);
+    padding: 50px;
+}
+
+.testosanna{
+    background-color: rgba(254, 194, 175, 1);
+    padding: 50px;
+}
+
+.modal:target {
+    display: block;
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.modal img {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 8px;
+}
+
+.close {
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.close:hover {
+    color: #ccc;
+}
 
