@@ -226,4 +226,10 @@ a:hover{
     text-decoration: underline;
 }
 
+h2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
 /*vyfchturfutfhu6rhfyfutrfyutrdf7hrf**/
