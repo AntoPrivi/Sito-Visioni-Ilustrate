@@ -1,7 +1,17 @@
+html{
+    height: -webkit-fill-available;
+}
+
 body{
-    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
     overflow-x: hidden;
     max-width: 100vw;
+    max-height: 100vh;
+    height: -webkit-fill-available;
+
+
     .roboto-regular {
         font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -90,13 +100,11 @@ header nav ul a:hover, footer nav ul a:hover {
     align-items: center;
 }
 
-.si{
-    font-size: 30px;
-}
-
 main{
     max-width: 700px;
     margin: 70px;
+    flex: 1;
+    overflow: scroll;
 }
 
 
@@ -106,34 +114,17 @@ main{
 }
 
 .no1, .no2, .no3{
-    /*margin-right: 5px;*/
     padding-right: 20px;
+    max-height: 20px;
+    float: left;
     
 }
 
-.no2{
-
-    max-height: 20px;
-    float: left;
-}
-
-.no3{
-
-    max-height: 20px;
-    float: left;
-}
-
-.sbatonz2{
+.sbatonz2, .sbatonz3{
     font-size: 15px;
     margin: auto;
     padding: auto;
 
-}
-
-.sbatonz3{
-    font-size: 15px;
-    margin: auto;
-    padding: auto;
 }
 
 .infomostra{
@@ -146,14 +137,6 @@ main{
 .palle1, .palle2, .palle3{
     padding: 10px;
     font-size: 23px;
-}
-
-.Inaugurazione {
-    padding: 70px;
-    max-width: 1300px;
-    font-weight: bold;
-    font-size: 45px;
-
 }
 
 .noo{
@@ -244,9 +227,14 @@ h2 {
         gap:16px
     }
 
-    .contenitore{
-        display: block;
+    dt{
+        font-size: 15px;
+        
+    }
 
+    .h1{
+        max-width: 600px;
+        font-size: 25px;
     }
 }
 
