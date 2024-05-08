@@ -38,19 +38,6 @@ section.cards img {
     text-align: center;
 }
 
-/* Per la modale*/
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 9999;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
 .testoEmily{
     background-color: white;
     padding: 50px;
@@ -64,7 +51,8 @@ section.cards img {
 
 .testoicinori{
     background-color: rgba(253, 237, 216, 1);
-    padding: 20px;
+    padding: 30px;
+    padding-top: 100px;
 }
 
 .coloremartina{
@@ -79,6 +67,34 @@ section.cards img {
 .testosanna{
     background-color: rgba(254, 194, 175, 1);
     padding: 50px;
+}
+
+.testoAdrian{
+    background-color: rgba(197, 198, 190, 1);
+    padding: 30px;
+    padding-top: 100px;
+
+}
+
+.testoHattie{
+    background-color: white;
+    padding: 0px;
+    padding-top: 50px;
+}
+
+
+/* Per la modale*/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .modal:target {
@@ -113,3 +129,20 @@ section.cards img {
     color: #ccc;
 }
 
+
+
+@media (max-width:600px) {
+
+.a, h1{
+    max-width: 400px;
+    font-size: 20px;
+}
+
+.nooo {
+    text-align: center;
+    top: -80px;
+    max-width: 400px;;
+    font-size: 20px;
+}
+
+}
