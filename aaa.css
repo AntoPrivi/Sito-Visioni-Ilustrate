@@ -103,7 +103,7 @@ main{
 
 .no1, .no2, .no3{
     padding-right: 20px;
-    max-height: 20px;
+    max-height: 50px;
     float: left;
     
 }
@@ -115,7 +115,10 @@ main{
 
 }
 
+
 .infomostra{
+    padding-top: 70px;
+    position: relative;
     padding: 70px;
     max-width: 1300px;
     font-weight: bold;
@@ -132,8 +135,13 @@ main{
     font-size: 23px;
 }
 
-dt{
-    font-size: 25px;
+dl{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap:16px;
+    padding: 8px;
+    font-size: 40px;
+    float: right;
 }
 
 
@@ -200,12 +208,29 @@ iframe{
     height: 400px;
     border-radius: 50%;
 }
-.maps{
-    margin: auto auto;
-    border: 10px;
-    border-color: black;
 
+.maps{ 
+    float: left;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: black;
+    border-radius: 50%;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: black;
+    border-radius: 50%;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
 }
+
+.artistis{
+    padding-top: 400px;
+}
+
 
 
 
@@ -258,10 +283,26 @@ iframe{
         max-height: 10px;
         float: left;
     }
-    .maps{
-        max-width: 200px;
-        max-height: 200px;
-        padding: 20px;
+    iframe{
+        width: 150px;
+        height: 150px;
+    }
+
+    dl{
+        gap: 8px;
+        padding: 4px;
+        font-size: 10px;
+    }
+
+    dt{
+        font-size: 13px;
+    }
+    .artistis{
+        padding-top: 150px;
+    }
+
+    .infomostra{
+        font-size: 35px;
     }
 }
 
