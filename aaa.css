@@ -195,6 +195,20 @@ h2 {
     flex-direction: column;
 }
 
+iframe{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.maps{
+    margin: auto auto;
+    border: 10px;
+    border-color: black;
+
+}
+
+
+
 @media (max-width:600px) {
     .grid {
         grid-template-columns: repeat(1, 1fr);
@@ -221,17 +235,18 @@ h2 {
     }
 
     .h1{
-        max-width: 600px;
-        font-size: 25px;
+        max-width: 400px;
+        font-size: 15px;
     }
 
     .content {
-        font-size: 10px;
+        padding: 20px;
+        font-size: 7px;
         color: black;
     
     }
     .sbatonz1, .sbatonz2, .sbatonz3{
-
+        max-width: 400px;
         float: left;
         margin: 0;
         padding: 0;
@@ -242,6 +257,11 @@ h2 {
         padding-right: 20px;
         max-height: 10px;
         float: left;
+    }
+    .maps{
+        max-width: 200px;
+        max-height: 200px;
+        padding: 20px;
     }
 }
 
