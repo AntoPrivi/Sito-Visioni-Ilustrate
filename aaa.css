@@ -264,6 +264,7 @@ iframe{
         font-size: 15px;
     }
 
+
     .content {
         padding: 20px;
         font-size: 7px;
@@ -271,11 +272,11 @@ iframe{
     
     }
     .sbatonz1, .sbatonz2, .sbatonz3{
-        max-width: 300px;
+        max-width: 400px;
         float: left;
         margin: 0;
         padding: 0;
-        font-size: 5px;
+        font-size: 7px;
     }
 
     .no1, .no2, .no3{
@@ -283,6 +284,7 @@ iframe{
         max-height: 10px;
         float: left;
     }
+
     iframe{
         width: 150px;
         height: 150px;
@@ -295,8 +297,9 @@ iframe{
     }
 
     dt{
-        font-size: 13px;
+        font-size: 7px;
     }
+    
     .artistis{
         padding-top: 150px;
     }
