@@ -240,6 +240,7 @@ iframe{
     }
 
     header, footer{
+        max-width: 400px;
         height: 30px;
         display: block;
         margin: auto;
